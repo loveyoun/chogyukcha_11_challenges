@@ -10,3 +10,5 @@
   ### 2. Git<br/>
   <img width="400" alt="image" src="https://github.com/user-attachments/assets/3b1a309b-dc22-41cb-be02-3e61964602ad" /><br/>
   ### 3. Python<br/>
+    3-1. Ch04_task(sol).ipynb<br/>
+    
