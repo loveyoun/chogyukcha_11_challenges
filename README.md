@@ -15,3 +15,9 @@
   &ensp; 3-3.&ensp;[Chapter0913_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Chaper0913_task.ipynb)<br/>
   &ensp; 3-4.&ensp;[Chapter1416_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Chaper1416_task.ipynb)<br/>
   &ensp; 3-5.&ensp;[Chapter1720_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Chapter1720_task.ipynb)<br/>
+  &ensp; 3-6.&ensp;[Ch21_32_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Ch21_32_task.ipynb)<br/>
+  &ensp; 3-7.&ensp;[Ch33_41_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Ch33_41_task.ipynb)<br/>
+  #### [Mini Project](https://github.com/loveyoun/chogyukcha_11_challenges/tree/main/Python/Mini_Project)<br/>
+  &ensp;&ensp; 3-6-1.&ensp;Mini_Project_Hangman<br/>
+  &ensp;&ensp; 3-7-1.&ensp;Mini_Project_TreasureHunting<br/>
+
