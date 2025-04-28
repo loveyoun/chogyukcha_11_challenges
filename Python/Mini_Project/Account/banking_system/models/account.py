@@ -19,7 +19,7 @@ class Account:
         self.__txs = []
 
     @validate_transaction
-    def deposit(self, amount:int) -> None:  # @Error: acc:Account
+    def deposit(self, amount:int) -> None:  # @Error: (acc:Account)
         # if amount >= 0:  # @decorator
         self.__balance += amount
         self.__txs.append(Transaction('deposit', amount, self.__balance))
