@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box; 
+    /*width/height 안에서만 padding/border 커진다.*/
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    /*요소마다 HTML 기본 스타일 있다*/
+    margin: 0;
+}
+
+.container{
+    height:100%;
+    background-color: #e6f776;
+}
+
+/*screen 크기 조절 - main*/
+.chat-screen{
+    height:calc(100% - 120px);
+}
+
+.user{
+    background-color: #ffffff;
+    padding: 16px;
+    height: 80px;
+}
+.user_column{
+    float: left;
+}
+.user_pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #e6f776;
+}
+.user_nick, .user_count{
+    margin: 5px;
+}
+.user_count{
+    font-size: 12px;
+    color: gray;
+}
+
+.chat_row{
+    float: right;
+}
+.read_count{
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.sent_msg{
+    float: right;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 7px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.chat-form{
+    height: 120px;
+    background-color: white;
+}
+.chat-form_field{
+    height: 120px;
+}
+.chat-form_msg{
+    float: left; /*화면상 렌더링 미세한 공간때문에 붙지못할 수 있어서*/
+    width: calc(100% - 120px);
+    height: 120px;
+    resize: none;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+}
+.chat-form_btn{
+    float: right; /*요소간 특성 차이나 렌더링 방식 등 때문에?*/
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #e6f776;
+    font-size: 18px;
+}
+
+/*의사 클래스 적용*/
+.chat-form_msg:focus{
+    outline: none;
+}
+.chat-form_btn:active{
+    background-color: #c1f77b;
+}

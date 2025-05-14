@@ -12,19 +12,22 @@
         </header>
         <hr>
         <main>
-            <form>
+            <form action="never.com" method="post"> <!--블록레벨요소-->
                 <fieldset>
-                    <!--legend: 영역 이름: 범례-->
                     <legend>개인정보</legend>
-                    <label for="name">이름</label>
-                    <input type="text" id="name" name="name" placeholder="본명"><!--inline요소-->
+                    <label>
+                        이름
+                        <input type="text" id="name" name="name" placeholder="본명">
+                        <!--inline요소-->
+                        <!--input 요소 중 스피너-->
+                    </label>
                     <br>
                     <label for="email">email</label>
                     <input type="email" id="email" name="email" placeholder="메일">
                 </fieldset>
                 <fieldset>
                     <legend>설문</legend>
-                    <p>연령대?</p><!--form 내 입력요소 구분. 식별자-->
+                    <p>연령대?</p> <!--form 내 입력요소 구분. 식별자 name-->
                     <input type="radio" id="teen" name="age">
                     <label for="teen">10대</label>
                     <input type="radio" id="twenty" name="age">

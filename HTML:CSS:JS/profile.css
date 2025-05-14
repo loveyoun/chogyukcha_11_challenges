@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    background-color: #df9999;
+    font-size:16px;
+}
+
+body{ /*layout 지정*/
+    width: 640px; /*contents 영역*/
+    margin: auto; 
+    /*너비에서 남는 여백을 동일하게 분배. box model handling*/
+}
+
+h1{
+    font-size: 48px; /*32px*/
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+p{
+    font-size: 1.2rem;
+}
