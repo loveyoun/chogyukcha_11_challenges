@@ -17,7 +17,7 @@
   &ensp; 3-7.&ensp;[Ch33_41_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Ch33_41_task.ipynb)<br/>
   &ensp; 3-8.&ensp;[Chapter42_47_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Python/Chapter42_47_task.ipynb)<br/>
   
-  #### [Mini Project](https://github.com/loveyoun/chogyukcha_11_challenges/tree/main/Python/Mini_Project)<br/>
+  - #### [Mini Project](https://github.com/loveyoun/chogyukcha_11_challenges/tree/main/Python/Mini_Project)<br/>
   &ensp;&ensp; 3-6-1.&ensp;Mini_Project_Hangman.ipynb<br/>
   &ensp;&ensp; 3-7-1.&ensp;Mini_Project_TreasureHunting.ipynb<br/>
   &ensp;&ensp; 3-8-1.&ensp;Account<br/>
@@ -28,3 +28,4 @@
   &ensp; 4-3.&ensp;[chapter14_21_task.ipynb](https://github.com/loveyoun/chogyukcha_11_challenges/blob/main/Database/chapter14_21.ipynb)<br/>
 
   ### 5. [HTML/CSS/JS](https://github.com/loveyoun/chogyukcha_11_challenges/tree/main/HTML%3ACSS%3AJS)<br>
+  - ##### [Admin Page Project](https://github.com/loveyoun/chogyukcha_11_challenges/tree/main/HTML%3ACSS%3AJS/project)<br>
