@@ -35,18 +35,20 @@ if (document.getElementById("signupform")) {
     if (userId.length < 6) {
       alert("아이디가 너무 짧습니다. 6자 이상 입력해주세요.");
       e.preventDefault();
-      // return;
+      return;
     }
 
     if (!validateString(userPw1)) {
       alert("* 영문, 숫자, 특수문자를 포함한 8자 이상 30자 미만이어야 합니다.");
       e.preventDefault();
+      return;
     }
 
     if (userPw1 != userPw2) {
       // 형변환, !== 형변환 x
       alert("비밀번호가 일치하지 않습니다.");
       e.preventDefault();
+      return;
     }
 
     // accounts.push({ id: userId, pwd: userPw1 });

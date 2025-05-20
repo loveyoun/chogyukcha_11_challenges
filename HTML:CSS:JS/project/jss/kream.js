@@ -156,15 +156,15 @@ let plen, pages, iter;
 
 function prevAction() {
   const curIter = Number(fst.textContent);
-
-  if (1 >= Math.ceil(curIter / 3)) return;
-
-  displayTabs();
-  activeFst();
+  const curIterDiv = Math.ceil(curIter / 3);
+  if (curIterDiv <= 1) return;
   fst.textContent = String(curIter - 3);
   snd.textContent = String(curIter - 2);
   trd.textContent = String(curIter - 1);
 
+  displayTabs();
+  initTab();
+  if (curIterDiv == 2) prev.classList.add("disabled");
   pagination(fst.textContent);
 }
 
@@ -175,7 +175,7 @@ function nextAction() {
   if (curIterDiv >= iter) return;
 
   displayTabs();
-  activeFst();
+  initTab();
   /* 요소 없애기 */ // fst.remove();
   fst.textContent = curIter + 3;
   if (curIter + 4 > pages) snd.style.display = "none";
@@ -184,6 +184,7 @@ function nextAction() {
   else trd.textContent = curIter + 5;
   // console.log(typeof trd.textContent);
 
+  if (curIterDiv == iter - 1) next.classList.add("disabled");
   pagination(fst.textContent);
 }
 
@@ -191,14 +192,19 @@ function displayTabs() {
   fst.style.display = "block";
   snd.style.display = "block";
   trd.style.display = "block";
+  prev.style.display = "block";
+  next.style.display = "block";
 }
-function activeFst() {
+function initTab() {
   displayTabs();
   fst.classList.add("active");
   snd.classList.remove("active");
   trd.classList.remove("active");
   if (pages < 2) snd.style.display = "none";
   if (pages < 3) trd.style.display = "none";
+
+  prev.classList.remove("disabled");
+  next.classList.remove("disabled");
 }
 function deactiveAll() {
   fst.classList.remove("active");
@@ -254,7 +260,9 @@ function filterData() {
   fst.textContent = 1;
   snd.textContent = 2;
   trd.textContent = 3;
-  activeFst(); // tab
+  initTab(); // tab
+  prev.classList.add("disabled");
+  if (pages < 3) next.classList.add("disabled");
   pagination(1); // data table
 }
 
